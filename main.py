@@ -1,5 +1,4 @@
 import predict
-import result
 import seaborn as sns
 import numpy as np
 import pandas as pd
@@ -7,7 +6,7 @@ import matplotlib.pyplot as plt
 import cleanup
 from sklearn.metrics import r2_score
 using_week = 15
-target_week = 19
+target_week = 25
 
 #clean up duplicates and in/outs
 cleaned = cleanup.handleCleanup(using_week,target_week)
@@ -16,10 +15,10 @@ evaluationMetric = ['xP',
                     #'bps',
                     #'influence', 
                     'minutes', 
-                    #'total_points', 
-                    #'opponent_index',
-                    "assists",
-                    "clean_sheets", 
+                    'total_points', 
+                    'opponent_index',
+                    #"assists",
+                    #"clean_sheets", 
                     #"creativity", 
                     "expected_goal_involvements",
                     "expected_goals",
