@@ -4,7 +4,7 @@ A machine learning-based Fantasy Premier League (FPL) points prediction system t
 
 ## 🎯 Overview
 
-This project leverages machine learning algorithms to predict FPL player points based on various performance metrics including expected goals (xG), assists, clean sheets, minutes played, and other key statistics. The system processes historical gameweek data to train a linear regression model that can forecast future player performance.
+This project uses linear regression throug SKLearn to predict FPL player points based on various performance metrics including expected goals (xG), assists, clean sheets, minutes played, and other key statistics. The system processes historical gameweek data to train a linear regression model that can forecast future player performance.
 
 ## ✨ Features
 
@@ -104,6 +104,7 @@ The system evaluates prediction accuracy using:
 - **Player Labeling**: Highlights high-performing players for easy identification
 
 ## Results
+The highest R2 value obtain through different datasets is only around 0.5, which is far from ideal for accurate prediction.
 
 ## ⚠️ Disclaimer
 
